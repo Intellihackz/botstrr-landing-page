@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://buypop.netlify.app/js/script.js" async></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Botstrr - Twitter Bot Detection Chrome Extension | Identify Fake Accounts
+    </title>
+    <meta
+      name="description"
+      content="Botstrr is a powerful Chrome extension for detecting Twitter bots. Protect your feed from fake accounts and enhance your social media experience with real-time bot detection."
+    />
+    <meta
+      name="keywords"
+      content="Twitter bot detection, Chrome extension, social media security, fake account detection, Botstrr"
+    />
+    <meta name="author" content="Botstrr" />
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://botstrr.netlify.app" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Botstrr - Twitter Bot Detection Chrome Extension"
+    />
+    <meta
+      property="og:description"
+      content="Detect Twitter bots with ease using Botstrr. Keep your Twitter feed authentic and bot-free."
+    />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/jRy8jtQ/brandbird.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="bostrr.netlify.app" />
+    <meta property="twitter:url" content="https://botstrr.netlify.app" />
+    <meta
+      name="twitter:title"
+      content="Botstrr - Twitter Bot Detection Chrome Extension"
+    />
+    <meta
+      name="twitter:description"
+      content="Detect Twitter bots with ease using Botstrr. Keep your Twitter feed authentic and bot-free."
+    />
+    <meta
+      name="twitter:image"
+      content="https://i.ibb.co/jRy8jtQ/brandbird.png"
+    />
+    <link rel="canonical" href="https://botstrr.netlify.app" />
+    <link rel="icon" href="https://i.ibb.co/80K17RD/icon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      data-website-id="66fd162db199ba735647eb54"
+      data-domain="botstrr.netlify.app"
+      src="https://datafa.st/js/script.js"
+    ></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scrollbar-width: thin;
+      }
+      .aspect-w-16 {
+        position: relative;
+        padding-bottom: 56.25%;
+      }
+      .aspect-w-16 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-black min-h-screen">
+    <header class="bg-black text-white py-4 fixed w-full z-10">
+      <div class="container mx-auto px-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold flex items-center">
+          <img
+            src="https://i.ibb.co/80K17RD/icon.png"
+            alt="Botstrr Logo"
+            class="w-8 h-8 mr-2"
+          />
+          Botstrr
+        </a>
+        <nav class="hidden md:flex items-center space-x-4">
+          <div class="flex-grow flex justify-center space-x-4">
+            <a href="#features" class="hover:text-gray-300">Features</a>
+            <a href="#how-to-use" class="hover:text-gray-300">How It Works</a>
+
+            <a href="#how-to-install" class="hover:text-gray-300"
+              >How to Install</a
+            >
+          </div>
+          <a
+            href="https://techwithtobi.lemonsqueezy.com/buy/df204409-cd32-45f8-81c8-c5c1e48d00e1"
+            class="inline-block bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-gray-200 transition-colors"
+          >
+            <i class="fas fa-download mr-2"></i>
+            Download Botstrr
+          </a>
+        </nav>
+        <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <div
+      id="mobile-menu"
+      class="fixed top-16 left-0 right-0 bg-black text-white z-10 hidden md:hidden"
+    >
+      <nav class="container mx-auto px-4 py-2 flex flex-col space-y-2">
+        <a href="#features" class="hover:text-gray-300">Features</a>
+        <a href="#who-is-it-for" class="hover:text-gray-300">Who Is It For</a>
+        <a href="#how-to-use" class="hover:text-gray-300"> How It Works</a>
+        <a href="#how-to-install" class="hover:text-gray-300">How to Install</a>
+        <a
+          href="https://techwithtobi.lemonsqueezy.com/buy/df204409-cd32-45f8-81c8-c5c1e48d00e1?logo=0&discount=0"
+          class="inline-block mt-2 bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-gray-200 transition-colors"
+        >
+          <i class="fas fa-download mr-2"></i>
+          Download Botstrr
+        </a>
+      </nav>
+    </div>
+
+    <main class="pt-16">
+      <section class="bg-black text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+          <img
+            src="https://i.ibb.co/80K17RD/icon.png"
+            alt="Botstrr Logo"
+            class="w-24 h-24 mx-auto mb-8"
+          />
+          <h1 class="text-4xl md:text-6xl font-bold mb-4">
+            Detect Twitter Bots with Ease
+          </h1>
+          <p class="text-xl mb-8">
+            Botstrr: Your Chrome extension for quick and accurate Twitter bot
+            detection
+          </p>
+          <a
+            href="#how-to-install"
+            class="bg-white text-black px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-200 transition-colors"
+          >
+            Install Now
+          </a>
+        </div>
+      </section>
+
+      <section id="features" class="py-20">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold mb-12 text-center">Key Features</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <i class="fas fa-shield-alt text-4xl mb-4 text-black"></i>
+              <h3 class="text-xl font-semibold mb-2">Real-Time Detection</h3>
+              <p>
+                Actively scans profiles and highlights potentially suspicious
+                accounts as you browse Twitter.
+              </p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <i class="fas fa-chart-bar text-4xl mb-4 text-black"></i>
+              <h3 class="text-xl font-semibold mb-2">
+                Accurate Profile Analysis
+              </h3>
+              <p>
+                Uses a simple but effective algorithm combining
+                follower/following ratios and post activity.
+              </p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <i class="fas fa-users text-4xl mb-4 text-black"></i>
+              <h3 class="text-xl font-semibold mb-2">Easy to Use</h3>
+              <p>
+                No complex setup—just install the extension, and it works in the
+                background as you explore Twitter.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="how-to-use" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold mb-12 text-center">
+            How Botstrr Works
+          </h2>
+          <div class="max-w-4xl mx-auto">
+            <p class="text-xl mb-8 text-center">
+              Botstrr seamlessly integrates into your Twitter browsing
+              experience, working behind the scenes to identify potential bot
+              accounts.
+            </p>
+
+            <div class="bg-white p-8 rounded-lg shadow-lg mb-8">
+              <h3 class="text-2xl font-semibold mb-4">
+                Automatic Bot Detection
+              </h3>
+              <div
+                class="border border-gray-200 rounded-lg p-4 flex items-start space-x-4"
+              >
+                <div
+                  class="w-16 h-16 bg-gray-300 rounded-full flex-shrink-0"
+                ></div>
+                <div class="flex-grow">
+                  <div class="flex items-center space-x-2">
+                    <span class="font-bold text-xl">@username</span>
+                    <img
+                      src="https://i.ibb.co/80K17RD/icon.png"
+                      alt="Bot Icon"
+                      class="w-6 h-6"
+                    />
+                  </div>
+                  <p class="text-gray-600">Profile description goes here...</p>
+                </div>
+              </div>
+              <p class="mt-4 text-center">
+                When you visit a Twitter profile, Botstrr analyzes the account.
+                If it's considered a bot, the bot icon appears next to the
+                username.
+              </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h4 class="text-xl font-semibold mb-2">
+                  1. Visit a Twitter Profile
+                </h4>
+                <p>
+                  Simply navigate to any Twitter profile as you normally would.
+                </p>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h4 class="text-xl font-semibold mb-2">
+                  2. Automatic Analysis
+                </h4>
+                <p>Botstrr instantly analyzes the profile in the background.</p>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h4 class="text-xl font-semibold mb-2">3. Bot Detection</h4>
+                <p>
+                  If the account is flagged as a potential bot, you'll see the
+                  bot icon next to the username.
+                </p>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h4 class="text-xl font-semibold mb-2">
+                  4. Informed Interaction
+                </h4>
+                <p>
+                  Use this information to make informed decisions about
+                  interacting with the account.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="how-to-install" class="bg-black text-white py-20">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold mb-12 text-center">How to Install</h2>
+          <div class="flex justify-center">
+            <div class="md:w-1/2">
+              <ol class="list-decimal list-inside space-y-4">
+                <li class="mb-4">
+                  <span class="font-semibold">Download the Extension:</span>
+                  <p class="mt-2">
+                    Click the button below to download the Botstrr extension ZIP
+                    file.
+                  </p>
+                  <a
+                    href="https://techwithtobi.lemonsqueezy.com/buy/df204409-cd32-45f8-81c8-c5c1e48d00e1?logo=0&discount=0"
+                    class="inline-block mt-2 bg-white text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-gray-200 transition-colors"
+                  >
+                    <i class="fas fa-download mr-2"></i>
+                    Download Botstrr
+                  </a>
+                </li>
+                <li class="mb-4">
+                  <span class="font-semibold">Unzip the File:</span>
+                  <p class="mt-2">
+                    Extract the contents of the ZIP file to a folder on your
+                    computer.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <span class="font-semibold"
+                    >Open Chrome Extensions Page:</span
+                  >
+                  <p class="mt-2">
+                    In Chrome, navigate to chrome://extensions/ or go to Menu >
+                    More Tools > Extensions.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <span class="font-semibold">Enable Developer Mode:</span>
+                  <p class="mt-2">
+                    Toggle on the "Developer mode" switch in the top right
+                    corner of the Extensions page.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <span class="font-semibold">Load Unpacked Extension:</span>
+                  <p class="mt-2">
+                    Click on "Load unpacked" and select the folder where you
+                    extracted the Botstrr files.
+                  </p>
+                </li>
+                <li>
+                  <span class="font-semibold">Verify Installation:</span>
+                  <p class="mt-2">
+                    Ensure that the Botstrr extension appears in your list of
+                    installed extensions.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20">
+        <div class="container mx-auto px-4 text-center">
+          <h2 class="text-3xl font-bold mb-8">Ready to Detect Bots?</h2>
+          <p class="text-xl mb-8">
+            Install Botstrr now and keep your Twitter feed free from bots and
+            fake accounts.
+          </p>
+          <a
+            href="#how-to-install"
+            class="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors"
+          >
+            Get Started
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-100 py-8">
+      <div class="container mx-auto px-4 text-center">
+        <p>
+          ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Botstrr. All rights reserved.
+        </p>
+        <div class="mt-4 space-x-4">
+          <a
+            href="https://twitter.com/zephyrdev_"
+            class="text-black hover:text-gray-600"
+            >Twitter</a
+          >
+          <a
+            href="https://palle-extractor.netlify.app"
+            class="text-black hover:text-gray-600"
+            >Pale</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const mobileMenuButton = document.getElementById("mobile-menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      mobileMenuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      // Close mobile menu when a link is clicked
+      const mobileMenuLinks = mobileMenu.querySelectorAll("a");
+      mobileMenuLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.add("hidden");
+        });
+      });
+    </script>
+  </body>
+</html>
